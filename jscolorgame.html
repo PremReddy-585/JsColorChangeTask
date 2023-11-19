@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="jscolorgame.css">
+</head>
+
+<body>
+    <div class="color_picker text-center d-flex flex-column justify-content-center pt-5 pb-5" id="colorPickerContainer">
+        <h1>Color Picker</h1>
+        <div class=text-center>
+            <button class="button button-1" onclick="changeBgToGreyAndUpdateText()" id="button1">#e0e0e0</button>
+            <button class="button button-2" onclick="changeBgToGreenAndUpdateText()" id="button2">#6fcf97</button>
+            <button class="button button-3" onclick="changeBgToblueAndUpdateText()" id="button3">#56ccf2</button>
+            <button class="button button-4" onclick="changeBgTovioletAndUpdateText()" id="button4">#bb6bd9</button>
+        </div>
+        <div style="background-color: black; border-radius: 12px;" class="m-4">
+            <p class="text-center back pt-3">Background Color : <span class="hex_element" id="selectedColorHexCode">#fffff</span></p>
+        </div>
+        <p class=text-center>Try clicking on one of the colors above to change the background color of this page!</p>
+    </div>
+    <script src="jscolorgamr.js"></script>
+</body>
+
+</html>

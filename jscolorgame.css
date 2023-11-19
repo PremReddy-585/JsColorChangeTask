@@ -1,0 +1,35 @@
+.button {
+    border-radius: 12px;
+    height: 76px;
+    width: 76px;
+}
+
+.hex_element {
+    color: #49a6e9;
+}
+
+.button-1 {
+    background-color: #e0e0e0;
+}
+
+.color_picker {
+    height: 100vh;
+}
+
+.button-2 {
+    background-color: #6fcf97;
+}
+
+.button-3 {
+    background-color: #56ccf2;
+}
+
+.button-4 {
+    background-color: #bb6bd9;
+}
+
+.back {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 19px;
+}
